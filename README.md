@@ -5,7 +5,7 @@ Converts .bash_history containing epoch timestamps to a `[<date> <time>] <comman
 <br>
 **Setup:**<br>
 Bash must be setup with `HISTTIMEFORMAT="[%F %T] "`. <br>
-Copy the following lines to `.bashrc` to setup bash-history-timestamp. <br>
+Copy the following lines to `.bashrc` to setup `bash-history-timestamp`. <br>
 Replace 'jeff' in filepath with your username. <br>
 
     trap "/home/jeff/bin/bash-history-timestamp" 0
