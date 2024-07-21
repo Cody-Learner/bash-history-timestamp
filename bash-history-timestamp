@@ -1,7 +1,6 @@
 #!/bin/bash
 # bash-history-timestamp 2024-07-20
 # Converts .bash_history 'epoch' time to an inline readable date/command string to .bash_history_dated.
-
 ##---------------------------------------------------------
 ## The following lines in .bashrc used to run this script.
 ##
