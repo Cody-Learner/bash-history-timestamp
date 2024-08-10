@@ -1,0 +1,11 @@
+#!/bin/bash
+
+	printf '\f%s\n' " Running: bash-hist-ts.inst"
+	printf '%s\f\n' " Appending proceeding two lines to ${HOME}/.bashrc"
+
+	printf '%s\n' "trap '$(type -p bash-history-timestamp)' 0"	>>"${HOME}"/.bashrc
+	printf '%s\n' 'export HISTTIMEFORMAT="[%F %T] "' 		>>"${HOME}"/.bashrc
+
+	tail -n2 "${HOME}"/.bashrc
+
+	printf '\f%s\f\n' " Be sure to double check ~/.bashrc after this."
